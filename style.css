@@ -8,6 +8,33 @@
 
 }
 
+.nodesktop {
+    display: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.6rem;
+    width: 25rem;
+    padding: 1rem 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+button {
+    border: none;
+    margin-top: 2rem;
+    border-radius: 45px;
+    width: 9rem;
+    height: 3rem;
+    font-size: smaller;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -36,37 +63,61 @@ header {
     align-items: center;
     justify-content: center;
     gap: 1em;
-
 }
 
+.links li a img {
+    cursor: pointer;
+}
 
-.doghat {
-    background-image: url(./assets/desktop/bgsection3-1.png);
-    background-size: cover;
+main section {
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 80vh;
+    height: 120vh;
+    padding: 6rem 4rem;
+}
+
+.doghat {
+    background-image: url(./assets/desktop/bgsection1-1.png);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding-bottom: 10rem;
     text-align: center;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 40px;
-    width: 25rem;
-    padding: 2rem 0;
-}
-
 #pata {
-    height: 7em;
+    height: 8em;
 }
 
+.dogmane {
+    background-image: url(./assets/desktop/bgsection2.png);
 
-p {
-    font-family: 'Roboto', sans-serif;
+}
 
+.dogmane h2,
+.dogmane p {
+    color: #3A342F;
+    width: 15rem;
+}
+
+.dogmane button {
+    background-color: #3A342F;
+}
+
+.mongrel {
+    background-image: url(./assets/desktop/bgsection3-1.png);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+.mongrel article {
+    width: 20rem;
+
+}
+
+.mongrel article button {
+    background-color: #FFFFFF;
+    color: #252525;
 }
