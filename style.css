@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+    color: #ffffff;
+    cursor: default;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background-color: #252525;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.fotologo {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 5px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+
+.doghat {
+    background-image: url(./assets/desktop/bgsection3-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 25rem;
+    padding: 2rem 0;
+}
+
+#pata {
+    height: 7em;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+
+}
