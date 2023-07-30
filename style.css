@@ -19,6 +19,13 @@ h2 {
     padding: 1rem 0;
 }
 
+h5 {
+    color: #FD6A9A;
+    font-weight: 400;
+    font-style: italic;
+    font-size: larger;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
@@ -120,4 +127,30 @@ main section {
 .mongrel article button {
     background-color: #FFFFFF;
     color: #252525;
+}
+
+footer {
+    width: 100%;
+}
+
+.apoio {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.apoio figure img {
+    margin: 0.5rem;
+}
+
+.footernav {
+    background: #EB4A7B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
 }
