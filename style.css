@@ -12,6 +12,11 @@
     display: none;
 }
 
+li {
+    list-style: none;
+    gap: 1em;
+}
+
 h2 {
     font-weight: bold;
     font-size: 2.6rem;
@@ -66,13 +71,12 @@ header {
 
 .links {
     display: flex;
-    list-style: none;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+
 }
 
-.links li a img {
+li a img {
     cursor: pointer;
 }
 
@@ -85,7 +89,7 @@ main section {
 }
 
 .doghat {
-    background-image: url(./assets/desktop/bgsection1-1.png);
+    background-image: url(./assets/desktop/bgsection1.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +117,7 @@ main section {
 }
 
 .mongrel {
-    background-image: url(./assets/desktop/bgsection3-1.png);
+    background-image: url(./assets/desktop/bgsection3.png);
     display: flex;
     align-items: start;
     justify-content: end;
@@ -153,4 +157,74 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 5rem;
+}
+
+.footernav nav p {
+
+    font-size: 0.8em;
+}
+
+@media (max-width: 500px) {
+    .nomobile {
+        display: none;
+    }
+
+    h2 {
+        font-size: 2rem;
+        width: auto;
+    }
+
+    main section {
+        height: 80vh;
+        padding: 3rem 1rem 20rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .doghat {
+        background-image: url(./assets/desktop/bgsection1mobile.png);
+    }
+
+    .dogmane {
+        background-image: url(./assets/desktop/bgsection2mobile.png);
+
+    }
+
+    .mongrel {
+        background-image: url(./assets/desktop/bgsection3mobile.png);
+    }
+
+    .nodesktop {
+        background-color: #EB4A7B;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .nodesktop ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+
+    }
+
+    .nodesktop ul li a img {
+        height: 2.5rem;
+    }
+
+    .footernav {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: space-around;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+
+    }
 }
